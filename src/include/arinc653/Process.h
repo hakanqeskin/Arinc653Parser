@@ -2,8 +2,10 @@
 #define ARINC653_PROCESS_H_
 
 #include <apex/types.h>
-#include <ezxml/ezxml.h>
+
 #include <string>
+
+struct ezxml;
 
 namespace arinc653
 {
@@ -14,7 +16,7 @@ public:
 	Process();
 	~Process();
 
-	bool load(ezxml_t);
+	bool load(struct ezxml*);
 
 	const std::string& name()const;
 	unsigned stackSize()const;

@@ -1,4 +1,5 @@
-#include "include\arinc653/SamplingPort.h"
+#include "include/arinc653/SamplingPort.h"
+#include "ezxml/ezxml.h"
 
 namespace arinc653 {
 SamplingPort::SamplingPort()

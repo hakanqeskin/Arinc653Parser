@@ -2,9 +2,8 @@
 #define ARINC653_SYSTEM_STATE_ENTRY_H_
 
 #include "SystemState.h"
-#include <ezxml/ezxml.h>
 
-#include <string>
+struct ezxml;
 
 namespace arinc653
 {
@@ -14,7 +13,7 @@ namespace arinc653
 		SystemStateEntry();
 		~SystemStateEntry();
 
-		bool load(ezxml_t);
+		bool load(struct ezxml*);
 
 		SYSTEM_STATE state()const;
 		const char* description()const;

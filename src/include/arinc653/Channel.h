@@ -1,9 +1,9 @@
 #ifndef ARINC653_CHANNEL_H_
 #define ARINC653_CHANNEL_H_
 
-#include <ezxml/ezxml.h>
-
 #include <string>
+
+struct ezxml;
 
 namespace arinc653
 {
@@ -13,7 +13,7 @@ public:
 	Channel();
 	~Channel();
 
-	bool load(ezxml_t);
+	bool load(struct ezxml*);
 
 	unsigned identifier()const;
 	const std::string& name()const;

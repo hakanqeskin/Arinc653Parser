@@ -1,8 +1,9 @@
 #ifndef ARINC653_EVENT_H_
 #define ARINC653_EVENT_H_
 
-#include <ezxml/ezxml.h>
 #include <string>
+
+struct ezxml;
 
 namespace arinc653
 {
@@ -12,7 +13,7 @@ public:
 	Event();
 	~Event();
 
-	bool load(ezxml_t);
+	bool load(struct ezxml*);
 
 	const std::string& name()const;
 

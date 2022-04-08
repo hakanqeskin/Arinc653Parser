@@ -1,5 +1,5 @@
-#include "include\arinc653\PartitionHMTable.h"
-
+#include "include/arinc653/PartitionHMTable.h"
+#include "ezxml/ezxml.h"
 
 namespace arinc653
 {

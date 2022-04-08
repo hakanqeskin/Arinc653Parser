@@ -3,9 +3,9 @@
 
 #include <apex/types.h>
 
-#include <ezxml/ezxml.h>
-
 #include <string>
+
+struct ezxml;
 
 namespace arinc653
 {
@@ -15,7 +15,7 @@ public:
 	Semaphore();
 	~Semaphore();
 
-	bool load(ezxml_t);
+	bool load(struct ezxml*);
 
 	const std::string& name()const;
 	int maxValue()const;

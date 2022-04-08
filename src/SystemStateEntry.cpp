@@ -1,4 +1,5 @@
-#include "include\arinc653\SystemStateEntry.h"
+#include "include/arinc653/SystemStateEntry.h"
+#include "ezxml/ezxml.h"
 
 namespace arinc653
 {

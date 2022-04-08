@@ -1,7 +1,7 @@
 #ifndef ARINC653_SYSTEM_HM_TABLE_H_
 #define ARINC653_SYSTEM_HM_TABLE_H_
 
-#include <ezxml/ezxml.h>
+struct ezxml;
 
 namespace arinc653
 {
@@ -11,7 +11,7 @@ public:
 	SystemHMTable();
 	~SystemHMTable();
 
-	bool load(ezxml_t);
+	bool load(struct ezxml*);
 };
 }//namespace arinc653
 

@@ -1,5 +1,5 @@
-#include "include\arinc653\ConnectionTable.h"
-
+#include "include/arinc653/ConnectionTable.h"
+#include "ezxml/ezxml.h"
 
 namespace arinc653 {
 ConnectionTable::ConnectionTable()

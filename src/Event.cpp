@@ -1,4 +1,5 @@
-#include "include\arinc653\Event.h"
+#include "include/arinc653/Event.h"
+#include "ezxml/ezxml.h"
 
 namespace arinc653
 {

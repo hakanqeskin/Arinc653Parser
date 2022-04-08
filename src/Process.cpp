@@ -1,4 +1,5 @@
-#include "include\arinc653/Process.h"
+#include "include/arinc653/Process.h"
+#include "ezxml/ezxml.h"
 
 namespace arinc653
 {

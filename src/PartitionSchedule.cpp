@@ -1,4 +1,4 @@
-#include "include\arinc653\PartitionSchedule.h"
+#include "include/arinc653/PartitionSchedule.h"
 
 namespace arinc653
 {

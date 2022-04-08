@@ -2,9 +2,10 @@
 #define ARINC653_PARTITION_H_
 
 #include <apex/types.h>
-#include <ezxml/ezxml.h>
 
 #include <string>
+
+struct ezxml;
 
 namespace arinc653
 {
@@ -22,7 +23,7 @@ public:
 	Partition();
 	~Partition();
 
-	bool load(ezxml_t);
+	bool load(struct ezxml*);
 
 	PARTITION_ID_TYPE identifier()const;
 	const std::string& name()const;

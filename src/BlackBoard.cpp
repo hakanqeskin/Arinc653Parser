@@ -1,4 +1,5 @@
-#include "include\arinc653\BlackBoard.h"
+#include "include/arinc653/BlackBoard.h"
+#include "ezxml/ezxml.h"
 
 namespace arinc653
 {

@@ -3,10 +3,9 @@
 
 #include <apex/types.h>
 
-#include <ezxml/ezxml.h>
-
 #include <string>
 
+struct ezxml;
 
 namespace arinc653
 {
@@ -16,7 +15,7 @@ public:
 	QueuingPort();
 	~QueuingPort();
 
-	bool load(ezxml_t);
+	bool load(struct ezxml*);
 
 	const std::string& name()const;
 	unsigned maxMessageSize()const;

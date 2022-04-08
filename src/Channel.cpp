@@ -1,4 +1,5 @@
-#include "include\arinc653\Channel.h"
+#include "include/arinc653/Channel.h"
+#include "ezxml/ezxml.h"
 
 namespace arinc653
 {

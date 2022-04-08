@@ -1,4 +1,5 @@
-#include "include\arinc653\SystemHMTable.h"
+#include "include/arinc653/SystemHMTable.h"
+#include "ezxml/ezxml.h"
 
 namespace arinc653
 {

@@ -1,4 +1,5 @@
-#include "include\arinc653\Semaphore.h"
+#include "include/arinc653\Semaphore.h"
+#include "ezxml/ezxml.h"
 
 namespace arinc653
 {

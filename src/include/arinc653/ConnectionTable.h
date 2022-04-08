@@ -1,7 +1,7 @@
 #ifndef ARINC653_CONNECTIONTABLE_H_
 #define ARINC653_CONNECTIONTABLE_H_
 
-#include <ezxml/ezxml.h>
+struct ezxml;
 
 namespace arinc653
 {
@@ -11,7 +11,7 @@ public:
 	ConnectionTable();
 	~ConnectionTable();
 
-	bool load(ezxml_t);
+	bool load(struct ezxml*);
 };
 }//namespace arinc653
 

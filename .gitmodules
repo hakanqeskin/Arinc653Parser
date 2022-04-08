@@ -1,0 +1,3 @@
+[submodule "src/ezxml"]
+	path = src/ezxml
+	url = https://github.com/hakanqeskin/ezxml

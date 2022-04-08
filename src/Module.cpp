@@ -1,6 +1,6 @@
-#include "include\arinc653/Module.h"
+#include "include/arinc653/Module.h"
 
-#include <ezxml/ezxml.h>
+#include "ezxml/ezxml.h"
 
 namespace arinc653
 {

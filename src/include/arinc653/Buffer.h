@@ -2,9 +2,10 @@
 #define ARINC653_BUFFER_H_
 
 #include <apex/types.h>
-#include <ezxml/ezxml.h>
 
 #include <string>
+
+struct ezxml;
 
 namespace arinc653
 {
@@ -14,7 +15,7 @@ public:
 	Buffer();
 	~Buffer();
 
-	bool load(ezxml_t);
+	bool load(struct ezxml*);
 
 	const std::string& name()const;
 	MESSAGE_RANGE_TYPE maxMessageSize()const;
